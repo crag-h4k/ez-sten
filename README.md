@@ -1,6 +1,5 @@
-## Easy stenoography CLI 
+## ez-sten
 
-- Embed message in image
+A quick and easy way to hid messages/text in images.
 
-- Generate key, one-pad
-
+More explanation to come.
