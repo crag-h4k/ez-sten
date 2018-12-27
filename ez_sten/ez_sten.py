@@ -1,13 +1,13 @@
 from sys import argv
 
 def count_lines(fname):
-    n = 0
+    n = 1
     with open(fname, 'rb') as f:
         for line in f: n += 1
     return n
 
 def _insert_text(fname, text, line_no):
-    n = 0
+    n = 1
     b_text = text.encode('ASCII')
     with open(fname, 'wb+') as f:
         for line in f:
